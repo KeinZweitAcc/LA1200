@@ -1,7 +1,7 @@
 # Projekt-Dokumentation
 
 
-Gruppe Cheetah: Eser, Willi, Evans, Manser, Greub
+Gruppe Cheetah: Eser, Willi, Evans, Manser, Greub  
 Gruppenleiter: Greub
 
 | Datum | Version | Zusammenfassung                                              |
