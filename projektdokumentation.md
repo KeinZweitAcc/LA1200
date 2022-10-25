@@ -14,7 +14,7 @@ Gruppenleiter: Greub
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+In diesem Projekt geht es darum, einen Vokabel Trainer zu programmieren.
 
 ### 1.2 User Stories
 
