@@ -45,6 +45,7 @@ Gruppenleiter: Greub
 | 6.1  | Program gestartet | 1. Deutsch English 2. 2 3. Baum Tree 4. Auto Car 5. Baum Tee 6. Baum Tree 7. Auto Car | ihr Score ist 1, Der Highscore ist 2 |
 | 7.1  | Program gestartet | 1. Deutsch EnglishD 4 | Geben sie hier ihre 4 Wörter ein: |
 | 8.1  | Program gestartet | 1. Deutsch English 2. 1 3.Baum Tree | Wollen sie Deutsch zu Fremdsprache oder Fremdsprache zu Deutsch übersetzten [Deutsch/Fremd] |
+| 9.1  | Program gestartet | 1. 4 | Inkorrekte eingabe, Geben sie ihre gewünschte Sprache ein |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
