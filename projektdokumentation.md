@@ -50,7 +50,7 @@ In diesem Projekt geht es darum, einen Vokabel Trainer zu programmieren.
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![grafik](https://user-images.githubusercontent.com/110893008/197731211-13462d47-89ed-4213-912c-b27d8b4ca209.png)
 
 ## 2 Planen
 
