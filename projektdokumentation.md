@@ -21,11 +21,12 @@ Gruppenleiter: Greub
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss            |Funktional| Als Benutzer möchte ich, dass die Eingaben gespeichert werden.|
-| 3    | Muss            |Funktional| Als Benutzer möchte ich, dass ich die Wörter eingeben.        |
+| 2    | Muss            |Funktional| Als Benutzer möchte ich, dass ich die Wörter eingeben.        |
 | 3    | Muss            |Qualität  | Als Benutzer möchte ich, dass meine Punktezahl angezeigt wird.|
-| 4    | Kann            | Qualität | Als Benutzer möchte ich, dass ich auf die Rechtschreibung überprüft werde.|
-| 5    | Kann            | Qualität | Als Benutzer möchte ich, dass ich die Wörter die ich falsch hatte, wiederholen kann.|
-| 6    | 
+| 4    | Kann            |Qualität | Als Benutzer möchte ich, dass ich auf die Rechtschreibung überprüft werde.|
+| 5    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die Wörter die ich falsch hatte, wiederholen kann.|
+| 6    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die gleichen Wörter immmer wieder lernen kann.|
+| 7    | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
