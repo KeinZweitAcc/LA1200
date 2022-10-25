@@ -6,7 +6,7 @@ Gruppenleiter: Greub
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   |                                                              |
+|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -14,14 +14,17 @@ Gruppenleiter: Greub
 
 ### 1.1 Ihr Projekt
 
-In diesem Projekt geht es darum 
+✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    | Muss            |Funktional| Als Benutzer möchte ich, dass die Eingaben gespeichert werden.|
+| 3    | Muss            |Funktional| Als Benutzer möchte ich, dass ich die Wörter eingeben.        |
+| 3    | Muss            |Qualität  | Als Benutzer möchte ich, dass meine Punktezahl angezeigt wird.|
+| 4    | Kann            | Qualität | Als Benutzer möchte ich, dass ich auf die Rechtschreibung überprüft werde.|
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
