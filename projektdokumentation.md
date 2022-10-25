@@ -6,7 +6,7 @@ Gruppenleiter: Greub
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 0.0.1   |                                                              |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -14,7 +14,7 @@ Gruppenleiter: Greub
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+In diesem Projekt geht es darum 
 
 ### 1.2 User Stories
 
