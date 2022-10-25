@@ -57,8 +57,15 @@ Gruppenleiter: Greub
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A | 1.11 | Manser | Eingaben werden gespeichert | 30 min |
+| 2.A | 1.11 | Manser | Wörter eingeben | 10 min |
+| 3.A | 1.11 | Evans | Punktezahl anzeigen | 30 min |
+| 4.A | 1.11 | Willi | Falsche Wörter überprüfen | 30 min |
+| 5.A | 8.11 | Willi | Falsche Wörter wiederholen | 30 min |
+| 6.A | 8.11 | Evans | Highscore abspeichern | 60 min |
+| 7.A | 1.11 | Eser | "Wie viele Wörter" Abfrage | 20 min |
+| 8.A | 1.11 | Eser | Sprach Abfrage | 30 min |
+| 9.A | 8.11 | Greub | Fehlerhafte Eingaben abfangen | 60 min |
 
 Total: 
 
