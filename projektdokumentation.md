@@ -20,15 +20,16 @@ Gruppenleiter: Greub
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss            |Funktional| Als Benutzer möchte ich, dass die Eingaben gespeichert werden können.|
-| 2    | Muss            |Funktional| Als Benutzer möchte ich, dass ich die Wörter eingeben kann.        |
+| 1    | Muss            |Funktional| Als Benutzer möchte ich, dass die Eingaben gespeichert werden.|
+| 2    | Muss            |Funktional| Als Benutzer möchte ich, dass ich die Wörter eingeben.        |
 | 3    | Muss            |Qualität  | Als Benutzer möchte ich, dass meine Punktezahl angezeigt wird.|
 | 4    | Kann            |Qualität | Als Benutzer möchte ich, dass ich auf die Rechtschreibung überprüft werde.|
 | 5    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die Wörter die ich falsch hatte, wiederholen kann.|
-| 6    | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
-| 7    | Muss            |Funktional| Als Benutzer möchte ich gefragt werden, wie viele Wörter ich eingeben möchte.|
-| 8    | Muss            |Funktional | Als Benutzer möchte ich gefragt werden, in welcher Sprache ich die Wörter lernen will.|
-| 9    | Muss            |Funktional| Als Benutzer möchte ich, dass Falscheingaben abgefangen werden.|
+| 6    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die gleichen Wörter immmer wieder lernen kann.|
+| 7    | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
+| 8    | Muss            |Funktional| Als Benutzer möchte ich gefragt werden, wie viele Wörter ich eingeben möchte.|
+| 9    | Muss            |Funtional | Als Benutzer möchte ich gefragt werden, in welcher Sprache ich die Wörter lernen will.|
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -36,8 +37,14 @@ Gruppenleiter: Greub
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Program gestartet | 1. 1 2. Baum Tree         | Diese Wörter wurden gespeichert |
-| ...  | Program gestartet | 1. 1        | Welche Wörter wollen sie üben                 |
+| 1.1  | Program gestartet | 1. Deutsch English 2. 1 3. Baum Tree         | Diese Wörter wurden gespeichert |
+| 2.1  | Program gestartet | 1. Deutsch English 2. 1        | Welche Wörter wollen sie üben?                |
+| 3.1  | Program gestartet | 1. Deutsch English 2. 2 3. Baum Tree 4. Auto Car 5. Deutsch 6. Tee 7. Tree 8. Car | ihr Score ist 1, Der Highscore ist 2 |
+| 4.1  | Program gestartet | 1. Deutsch English 2. 1 3. Baum Tree 4. Baum Tee | Dies ist nicht korrekt, probieren sie es nochmal |
+| 5.1  | Program gestartet | 1. Deutsch English 2. 1 3. Baum Tree 4. Baum Tee | Dies ist nicht korrekt, probieren sie es nochmal |
+| 6.1  | Program gestartet | 1. Deutsch English 2. 2 3. Baum Tree 4. Auto Car 5. Baum Tee 6. Baum Tree 7. Auto Car | ihr Score ist 1, Der Highscore ist 2 |
+| 7.1  | Program gestartet | 1. Deutsch EnglishD 4 | Geben sie hier ihre 4 Wörter ein: |
+| 8.1  | Program gestartet | 1. Deutsch English 2. 1 3.Baum Tree | Wollen sie Deutsch zu Fremdsprache oder Fremdsprache zu Deutsch übersetzten [Deutsch/Fremd] |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
