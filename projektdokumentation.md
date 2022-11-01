@@ -25,10 +25,10 @@ In diesem Projekt geht es darum, einen Vokabel Trainer zu programmieren.
 | 3    | Muss            |Qualität  | Als Benutzer möchte ich, dass meine Punktezahl angezeigt wird.|
 | 4    | Kann            |Qualität | Als Benutzer möchte ich, dass ich auf die Rechtschreibung überprüft werde.|
 | 5    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die Wörter die ich falsch hatte, wiederholen kann.|
-| 6   | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
+| 6    | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
 | 7    | Muss            |Funktional| Als Benutzer möchte ich gefragt werden, wie viele Wörter ich eingeben möchte.|
 | 8    | Muss            |Funtional | Als Benutzer möchte ich gefragt werden, in welcher Sprache ich die Wörter lernen will.|
-| 9    | MUss            | Funktional| Als Benutzer möchte, dass Fehleingaben abgefangen werden.|
+| 9    | Muss            | Funktional| Als Benutzer möchte, dass Fehleingaben abgefangen werden.|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
