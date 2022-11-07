@@ -7,8 +7,8 @@ Gruppenleiter: Greub
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |25.10.22 | 0.0.1   | User stories, Testfälle und Arbeitspakete wurden geschrieben.|
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 01.11.22| 0.0.2    |  User Stories 1 - 8 umgesetzt und in die Projektdokumentation eingetragen       |
+
 
 ## 1 Informieren
 
@@ -80,8 +80,14 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |   01.11.22    |     Manser      |      30 min        |     40 min              |
+| 2.A  |   01.11.22    |     Manser      |        10 min      |         25 min          |
+| 3.A  |  01.11.22     |     Evans      |           30 min    |       40 min            |
+| 4.A  |   01.11.22    |       Willi    |            30 min  |              25 min     |
+| 5.A  |    01.11.22   |      Willi     |        30 min      |              20 min     |
+| 6.A  |   01.11.22    |     Evans      |         60 min     |      45 min             |
+| 7.A  |  01.11.22     |      Eser     |       20 min       |        30 min           |
+| 8.A  |   01.11.22    |      Eser     |      30 min        |             35 min      |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
