@@ -1,67 +1,68 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Lernatelier_Vokabeln
+﻿namespace LA_1200
 {
     internal class Program
     {
         static void Main(string[] args)
-        { bool antwort = (false);
+        {
+
+            bool lmao = false;
             int highscore = 0;
-           bool wiederholung=false;
-            do
+            int maxScore = 0;
+
+            Console.Write("Wie viele Wörter wollen sie abfragen? ");
+            int anzahlWörter = Convert.ToInt32(Console.ReadLine());
+            string[] wörter = new string[anzahlWörter];
+            string[] wörterLösungen = new string[anzahlWörter];
+
+            for (int i = 0; i < wörter.Length; i++)
             {
-                try
+                Console.Write("Was ist das Deutsche Wort? ");
+                wörter[i] = (Console.ReadLine());
+                Console.WriteLine("Was ist die Englishe übersetzung davon?");
+                wörterLösungen[i] = (Console.ReadLine());
+
+            }
+
+
+            for (int x = 0; x < wörter.Length; x++)
+            {
+                maxScore++;
+                do
                 {
 
-                    Console.WriteLine("Wie viele wörter möchten sie eingeben");
-                    int anzahlWörter = Convert.ToInt32(Console.ReadLine());
-                    int[] anzahlWörterArray = new int[anzahlWörter];
-                    string[] wörterDeutsch = new string[anzahlWörter];
-                    string[] wörterFremdsprache = new string[anzahlWörter];
-
-                    for (int i = 0; i < wörterDeutsch.Length; i++)
+                    Console.WriteLine("Übersetzen sie bitte {0}", wörter[x]);
+                    string eingabe = Console.ReadLine();
+                    if (eingabe == wörterLösungen[x])
                     {
-                        Console.WriteLine("Geben sie das deutsche Wort ein");
-                        wörterDeutsch[i] = (Console.ReadLine());
-                        Console.WriteLine("Geben sie die Übersetzung ein");
-                        wörterFremdsprache[i] = (Console.ReadLine());
+                        Console.WriteLine("Dies ist Korrekt.");
+                        highscore++;
+                        lmao = false;
                     }
-
-
-                    for (int x = 0; x < wörterDeutsch.Length; x++)
+                    else
                     {
-
-                        do
+                        Console.WriteLine("Dies ist leider nicht korrekt.");
+                        lmao = true;
+                        while (lmao == true) 
                         {
-                            Console.WriteLine("Übersetzen sie bitte {0}", wörterDeutsch[x]);
-                            string eingabe = Console.ReadLine();
-                            if (eingabe == wörterFremdsprache[x])
+                            Console.Write("Probieren sie es nochmal: ");
+                            eingabe = Console.ReadLine();
+                            if (eingabe == wörterLösungen[x])
                             {
-
-                                Console.WriteLine("Dies ist Korrekt");
-                                highscore++;
-
-                            }
-                            else
+                                
+                                Console.WriteLine("Dies ist Korrekt.");
+                                lmao = false;
+                            }else
                             {
-                                Console.WriteLine("Leider ist dies inkorrekt.Versuche es nochmals.");
-                                antwort = true;
-
+                                Console.WriteLine("Dies ist leider inkorrekt, probieren sie es nochmal.");
+                                lmao = true;
                             }
-                        } while (antwort == true);
+                        }
+
                     }
 
-                }
-                catch
-                {
-
-                    Console.WriteLine("Dies ist eine Ungültige eingabe.Bitte geben sie nur ganze Zahlen ein.");
-                    wiederholung =true;
-                 }
-
-            } while (wiederholung =true);
-
-            Console.WriteLine("Sie haben eine totale Punktzahl von" + highscore + "Punkten erreicht");
-        } 
+                } while (lmao == true);
+            }
+            Console.WriteLine("Sie haben {0} von maximal {1} Punkte erreicht", highscore, maxScore);
+        }
     }
 }
