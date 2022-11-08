@@ -8,7 +8,7 @@ Gruppenleiter: Greub
 | ----- | ------- | ------------------------------------------------------------ |
 |25.10.22 | 0.0.1   | User stories, Testfälle und Arbeitspakete wurden geschrieben.|
 | 01.11.22| 0.0.2    |  User Stories 1 - 8 umgesetzt und in die Projektdokumentation eingetragen       |
-
+|8.11.22| 0.0.3| User Stories 1-9 weiterhin umgesetzt und Probleme im Programm behoben.| 
 
 ## 1 Informieren
 
