@@ -1,5 +1,9 @@
 # Lern-Bericht
-Cheetah Greub, Manser, Evans, Eser, Willi
+Gruppe: Cheetah
+
+Gruppenmitglieder:
+
+Greub, Manser, Evans, Eser, Willi
 
 ## Einleitung
 
