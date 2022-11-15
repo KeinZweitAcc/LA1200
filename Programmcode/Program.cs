@@ -6,13 +6,13 @@ namespace Lernatelier_Vokabeln
     {
         static void Main(string[] args)
         {
-            bool antwort = (false);
+            bool isAnswer = false;
             int maxScore = 0;
             int highscore = 0;
-            bool wiederholung = true;
-            bool abfragen = true;
-            int anzahlWörter = 0;
-            string dateipfad = @"words.txt";
+            bool isRepeat = true;
+            string testOrInput = "a";
+            int wordCount = 0;
+            string filepath = @"words.txt";
 
             do
             {
@@ -20,8 +20,16 @@ namespace Lernatelier_Vokabeln
                 {
 
                     Console.Write("Möchten Sie neue Wörter eintragen oder die vorhandenen Wörter abfragen? [e/a] ");
-                    abfragen = Console.ReadLine() == "a";
-                    wiederholung = false;
+                    testOrInput = Console.ReadLine();
+                    if (testOrInput == "a")
+                    {
+
+                    }
+                    else if (testOrInput != "e")
+                    {
+                        throw new Exception();
+                    }
+                    isRepeat = false;
 
                 }
                 catch
@@ -31,83 +39,83 @@ namespace Lernatelier_Vokabeln
 
                 }
 
-            } while (wiederholung);
+            } while (isRepeat);
 
-            if (abfragen)
+            if (testOrInput == "a")
             {
-                string rohdatei = File.ReadAllText(dateipfad);
-                string[] line = rohdatei.Split("\r\n");
-                anzahlWörter = line.Length;
-                string[] wörterDeutsch = new string[anzahlWörter];
-                string[] wörterFremdsprache = new string[anzahlWörter];
+                string file = File.ReadAllText(filepath);
+                string[] line = file.Split("\r\n");
+                wordCount = line.Length;
+                string[] wordsGerman = new string[wordCount];
+                string[] wordsForeignLanguage = new string[wordCount];
 
-                //Abgespeicherte Wörter werden in zwei Arrays initialisiert
+                
                 for (int i = 0; i < line.Length - 1; i++)
                 {
 
                     string[] word = line[i].Split(',');
-                    wörterDeutsch[i] = word[0];
-                    wörterFremdsprache[i] = word[1];
+                    wordsGerman[i] = word[0];
+                    wordsForeignLanguage[i] = word[1];
 
                 }
 
-                //Wörter werden abgefragt
                 
+
                 for (int i = 0; i < line.Length - 1; i++)
                 {
-                    antwort = false;
+                    isAnswer = false;
                     maxScore++;
                     do
                     {
 
-                        Console.WriteLine("Übersetzen sie bitte {0}", wörterDeutsch[i]);
-                        string eingabe = Console.ReadLine();
-                        if (eingabe == wörterFremdsprache[i])
+                        Console.WriteLine("Übersetzen sie bitte {0}", wordsGerman[i]);
+                        string input = Console.ReadLine();
+                        if (input == wordsForeignLanguage[i])
                         {
                             Console.WriteLine("Dies ist Korrekt.");
                             highscore++;
-                            antwort = false;
+                            isAnswer = false;
                         }
                         else
                         {
                             Console.WriteLine("Dies ist leider nicht korrekt.");
-                            antwort = true;
-                            while (antwort == true)
+                            isAnswer = true;
+                            while (isAnswer == true)
                             {
                                 Console.Write("Probieren sie es nochmal: ");
-                                eingabe = Console.ReadLine();
-                                if (eingabe == wörterFremdsprache[i])
+                                input = Console.ReadLine();
+                                if (input == wordsForeignLanguage[i])
                                 {
 
                                     Console.WriteLine("Dies ist Korrekt.");
-                                    antwort = false;
+                                    isAnswer = false;
                                 }
                                 else
                                 {
                                     Console.WriteLine("Dies ist leider inkorrekt, probieren sie es nochmal.");
-                                    antwort = true;
+                                    isAnswer = true;
                                 }
                             }
 
                         }
 
-                    } while (antwort == true);
+                    } while (isAnswer == true);
                 }
                 Console.WriteLine("Sie haben {0} von maximal {1} Punkte erreicht", highscore, maxScore);
 
 
             }
-            else
+            else 
             {
-                //Anzahl der Wörter werden erfasst
+                
                 do
                 {
                     try
                     {
 
                         Console.Write("Wie viele wörter möchten sie eingeben? ");
-                        anzahlWörter = Convert.ToInt32(Console.ReadLine());
-                        wiederholung = false;
+                        wordCount = Convert.ToInt32(Console.ReadLine());
+                        isRepeat = false;
 
 
                     }
@@ -118,28 +126,27 @@ namespace Lernatelier_Vokabeln
 
                     }
 
-                } while (wiederholung);
+                } while (isRepeat);
 
-                //Arrays werden erstellt
-                int[] anzahlWörterArray = new int[anzahlWörter];
-                string[] wörterDeutsch = new string[anzahlWörter];
-                string[] wörterFremdsprache = new string[anzahlWörter];
-                wiederholung = true;
+                
+                string[] wordsGerman = new string[wordCount];
+                string[] wordsForeignLanguage = new string[wordCount];
+                isRepeat = true;
 
-                //Wörter werden eingegeben
+                
                 do
                 {
                     try
                     {
 
-                        for (int i = 0; i < anzahlWörter; i++)
+                        for (int i = 0; i < wordCount; i++)
                         {
                             Console.WriteLine("Geben sie das deutsche Wort ein");
-                            wörterDeutsch[i] = (Console.ReadLine());
+                            wordsGerman[i] = (Console.ReadLine());
                             Console.WriteLine("Geben sie die Übersetzung ein");
-                            wörterFremdsprache[i] = (Console.ReadLine());
+                            wordsForeignLanguage[i] = (Console.ReadLine());
                         }
-                        wiederholung = false;
+                        isRepeat = false;
 
 
                     }
@@ -150,20 +157,20 @@ namespace Lernatelier_Vokabeln
 
                     }
 
-                } while (wiederholung);
+                } while (isRepeat);
 
-                //Dieser String schreibt anschliessend die Wörter in ein Textdokument
-                string ausgabeText = "";
+                
+                string outputText = "";
 
-                //Diese Iteration schreibt alle Wörter in einen String...
-                for (int i = 0; i < anzahlWörter; i++)
+                
+                for (int i = 0; i < wordCount; i++)
                 {
 
-                    ausgabeText += $"{wörterDeutsch[i]},{wörterFremdsprache[i]}\r\n";
+                    outputText += $"{wordsGerman[i]},{wordsForeignLanguage[i]}\r\n";
 
                 }
-                //... und speichert ihn hier ab
-                File.WriteAllText(dateipfad, ausgabeText);
+                
+                File.WriteAllText(filepath, outputText);
             }
 
         }
