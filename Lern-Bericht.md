@@ -28,8 +28,9 @@ Wir haben gelernt wie man Dateipfade benutzt und umsetzt.
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Unsere Gruppe hat bei diesem Projekt sehr gut zusammen gearbeitet.Die Aufteilung der verschiedenen Aufgaben verlief schnell und jeder konnt seinem können entsprechend seine Aufgabe erfüllen.
+Was nicht so gut lief war die Aufteilung der Zeit. Manche konnten teilweise nicht arbeiten, weil ihr Teil abhängig war von einer Arbeit von jemand anderem.Dies wurde dann aber so gelöst,dass man dann zu zweit an einem Problem gearbeitet hat.
 
-👎 und etwas, was nicht gut lief.
+Für die nächste Gruppenarbeit sollten wir beachten, dass wir die Aufgaben so verteilen, dass jeder an etwas Arbeiten kann und nicht auf jemand anderen warten muss.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+
