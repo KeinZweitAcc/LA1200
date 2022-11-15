@@ -99,7 +99,7 @@ Wir haben die User Storie 6 und 8 Nicht durchgeführt da wir es als unnötig emp
 | 4.1  | 15.11.22 | ok | Greub|
 | 5.1  | 15.11.22 | ok | Greub|
 | 7.1  | 15.11.22 | ok | Manser|
-| 9.1 | 15.11.22 | nicht ok |Manser|
+| 9.1 | 15.11.22 | ok |Manser|
 
 
 Program ist bereit zur veröffentlichung
