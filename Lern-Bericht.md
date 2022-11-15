@@ -15,11 +15,14 @@ Wir haben gelernt wie man Dateipfade benutzt und umsetzt.
 
 ## Beschreibung
 
+![Screenshot 2022-11-15 095519](https://user-images.githubusercontent.com/110892622/201875196-1bd9f698-f36c-4412-ae3a-56edf2053958.jpg)
 
+![Code 150-170 2022-11-15 095638](https://user-images.githubusercontent.com/110892622/201875167-fbaeea83-8b0a-4a52-a62e-11f7c9fc6056.jpg)
 
+Auf de
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
+
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
