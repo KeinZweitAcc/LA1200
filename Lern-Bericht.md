@@ -7,11 +7,11 @@ Greub, Manser, Evans, Eser, Willi
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+In unserem Projekt haben ein Programm erstellt, welches einem Wörter abfragt, zum Beispiel einer Übersetzung zwischen zwei Sprachen.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Wir haben gelernt wie man Dateipfade benutzt und umsetzt.
 
 ## Beschreibung
 
