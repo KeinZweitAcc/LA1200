@@ -27,7 +27,7 @@ In diesem Projekt geht es darum, einen Vokabel Trainer zu programmieren.
 | 5    | Kann            |Qualität | Als Benutzer möchte ich, dass ich die Wörter die ich falsch hatte, wiederholen kann.|
 | 6    | Kann            |Qualität | Als Benutzer möchte ich, dass von den gleichen Lernsets die Highscores verglichen werden.|
 | 7    | Muss            |Funktional| Als Benutzer möchte ich gefragt werden, wie viele Wörter ich eingeben möchte.|
-| 8    | Muss            |Funtional | Als Benutzer möchte ich gefragt werden, in welcher Sprache ich die Wörter lernen will.|
+| 8    | kann            |Funtional | Als Benutzer möchte ich gefragt werden, in welcher Sprache ich die Wörter lernen will.|
 | 9    | Muss            | Funktional| Als Benutzer möchte, dass Fehleingaben abgefangen werden.|
 
 
@@ -71,7 +71,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben die User Storie 6 und 8 Nicht durchgeführt da wir es als unnötig empfunden haben
 
 ## 4 Realisieren
 
@@ -93,12 +93,18 @@ Total:
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 15.11.22      | ok         | Greub      |
+| 2.1  | 15.11.22     | ok         | Greub       |
+| 3.1  | 15.11.22     | ok        |Greub|
+| 4.1  | 15.11.22 | ok | Greub|
+| 5.1  | 15.11.22 | ok | Greub|
+| 7.1  | 15.11.22 | ok | Manser|
+| 9.1 | 15.11.22 | ok |Manser|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+
+Program ist bereit zur veröffentlichung
 
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+https://github.com/KeinZweitAcc/LA1200/blob/main/Lern-Bericht.md
